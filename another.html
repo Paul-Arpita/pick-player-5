@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Player</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="text-white bg-secondary ">
+    <header class="bg-dark text-center mb-5">
+
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image 27.png" alt="">
+            </div>
+            <div class="col-8">
+                <h1>Pick Your Player</h1>
+                <p>Get all information about the action as it happened. Details about Highest Bid for players, most
+                    expensive
+                    players, players retained, Teams & their formations!</p>
+            </div>
+            <div class="col-2">
+                <img src="images/Card-psg.png" alt="">
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </header>
+    <main class="bg-secondary">
+        <section class="container">
+            <!-- 1st clmn takes 9 and 2nd clmn takes 3 spaces -->
+            <div class="row">
+                <div class="col-9">
+                    <!-- 3 clms are here taking 4 spaces per clm -->
+                    <div class="container text-center">
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <div class="border bg-light">
+                                    <!-- card starts -->
+                                    <div class="card">
+                                        <img src="images/players/Rectangle 144.png" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body bg-dark">
+                                            <h5 id="player1" class="card-title">Lionel Messi</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+                                            <button id="btn1" onclick="totalPlayer(this)"
+                                                class="btn btn-primary">Select</button>
+                                        </div>
+                                    </div>
+                                    <!-- card starts -->
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border bg-light">
+                                    <!-- card starts -->
+                                    <div class="card">
+                                        <img src="images/players/Rectangle 144 (1).png" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body bg-dark">
+                                            <h5 id="player2" class="card-title">Vítor Machado</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+                                            <button onclick="totalPlayer(this)" class="btn btn-primary">Select</button>
+                                        </div>
+                                    </div>
+                                    <!-- card starts -->
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border bg-light">
+                                    <!-- card starts -->
+                                    <div class="card">
+                                        <img src="images/players/Rectangle 144 (2).png" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body bg-dark">
+                                            <h5 id="player3" class="card-title">Neymar Jr</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+                                            <button onclick="totalPlayer(this)" class="btn btn-primary">Select</button>
+                                        </div>
+                                    </div>
+                                    <!-- card starts -->
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <div class="border bg-light">
+                                    <!-- card starts -->
+                                    <div class="card">
+                                        <img src="images/players/Rectangle 144 (3).png" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body bg-dark">
+                                            <h5 id="player4" class="card-title"> Messi</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+                                            <button onclick="totalPlayer(this)" class="btn btn-primary">Select</button>
+                                        </div>
+                                    </div>
+                                    <!-- card starts -->
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border bg-light">
+                                    <!-- card starts -->
+                                    <div class="card">
+                                        <img src="images/players/Rectangle 144 (4).png" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body bg-dark">
+                                            <h5 id="player5" class="card-title">Vítor</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+                                            <button onclick="totalPlayer(this)" class="btn btn-primary">Select</button>
+                                        </div>
+                                    </div>
+                                    <!-- card starts -->
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border bg-light">
+                                    <!-- card starts -->
+                                    <div class="card">
+                                        <img src="images/players/Rectangle 144 (5).png" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body bg-dark">
+                                            <h5 id="player3" class="card-title">Neymar Hsdt</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+                                            <button onclick="totalPlayer(this)" class="btn btn-primary">Select</button>
+                                        </div>
+                                    </div>
+                                    <!-- card starts -->
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Selected Five section -->
+                <div class="col-3 ">
+                    <div class="card mb-5 bg-dark" style="width: 18rem;height: 371px;text-align: center;">
+                        <h3>Selected V</h3>
+
+
+                        <!-- div for li starts -->
+
+                        <div id="div"></div>
+
+                        <!--div for li ends -->
+
+
+                    </div>
+                    <!-- Budget section -->
+
+                    <div class="card  bg-dark" style="width: 18rem;height: 400px;text-align: center;">
+                        <h3>Budget</h3>
+
+                        <div class="row g-3 ">
+                            <div class="col-6">
+                                <label for="inputPassword6" class="col-form-label">Per Player</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="per-player-input" type="text" class="form-control" aria-describedby="">
+                            </div>
+                            <div class="col-auto">
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="d-grid gap-2 ">
+
+                            <button id="calculate-btn" class="btn btn-primary" type="button">Calculate</button>
+                            <p>Players Expense <span> $ <strong id="players-expense"></strong></span></p>
+
+                            <!-- manager -->
+                            <div class="row g-3 ">
+                                <div class="col-6">
+                                    <label for="inputPassword6" class="col-form-label">Manager</label>
+                                </div>
+                                <div class="col-6">
+                                    <input id="manager-input" type="text" class="form-control" aria-describedby="">
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+
+                            <!-- coach -->
+
+                            <div class="row g-3 ">
+                                <div class="col-6">
+                                    <label for="inputPassword6" class="col-form-label">Coach</label>
+                                </div>
+                                <div class="col-6">
+                                    <input id="coach-input" type="text" class="form-control" aria-describedby="">
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+
+                            <button id="calculate-total" class="btn btn-primary" type="button">Calculate Total</button>
+                            <p>Total <span>$ <strong id="total"></strong></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+        </section>
+    </main>
+    <footer></footer>
+    <!-- external js file -->
+    <!-- <script src="javascript.js"></script> -->
+    <script src="jscript.js"></script>
+    <!-- bootstrap js link -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
