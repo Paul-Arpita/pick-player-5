@@ -45,11 +45,11 @@ function totalPlayer(element) {
 
 }
 
-const perPlayerInput = document.getElementById('per-player-input').value;
-console.log(perPlayerInput);
-const managerInput = document.getElementById('manager-input').value;
-console.log(managerInput);
-const coachInput = document.getElementById('coach-input').value;
+let perPlayerInput = document.getElementById('per-player-input').value;
+// console.log(perPlayerInput);
+let managerInput = document.getElementById('manager-input').value;
+// console.log(managerInput);
+let coachInput = document.getElementById('coach-input').value;
 
 document.getElementById('calculate-btn').addEventListener('click', function () {
 
@@ -63,7 +63,7 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 document.getElementById('calculate-total').addEventListener('click', function () {
 
     let perPlayerExpense = (displayArray.length) * parseInt(perPlayerInput);
-    const totalBudget = parseInt(perPlayerExpense) + parseInt(managerInput) + parseInt(coachInput);
+    let totalBudget = parseInt(perPlayerExpense) + parseInt(managerInput) + parseInt(coachInput);
     let total = document.getElementById('total');
 
     total.innerText = parseInt(totalBudget);
