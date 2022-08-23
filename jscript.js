@@ -16,16 +16,9 @@ function display(players) {
             `;
 
             div.appendChild(li);
-
+            document.getElementsByClassName('dis').setAttribute('disabled', true);
         }
-        // const name = displayArray[i].playerName;
-        // const li = document.createElement('li');
-        // li.innerHTML = `
-        // ${i + 1}${name}
 
-        // `;
-
-        // div.appendChild(li);
         else {
             alert('Do not choose more than 5 players');
         }
