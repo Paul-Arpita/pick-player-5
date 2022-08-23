@@ -16,7 +16,7 @@ function display(players) {
             `;
 
             div.appendChild(li);
-            document.getElementsByClassName('dis').setAttribute('disabled', true);
+
         }
 
         else {
