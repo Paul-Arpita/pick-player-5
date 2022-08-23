@@ -70,8 +70,8 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 document.getElementById('calculate-total').addEventListener('click', function () {
 
     let perPlayerExpense = (displayArray.length) * parseInt(perPlayerInput);
-    const totalBudget = perPlayerExpense + parseInt(managerInput) + parseInt(coachInput);
+    const totalBudget = parseInt(perPlayerExpense) + parseInt(managerInput) + parseInt(coachInput);
     let total = document.getElementById('total');
 
-    total.innerText = totalBudget;
+    total.innerText = parseInt(totalBudget);
 })
